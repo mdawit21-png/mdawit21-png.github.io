@@ -1,0 +1,50 @@
+/* Tag selector: styles every <body> and <h1> */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f4f1ec;
+  color: #222;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+h1 {
+  color: #bf5700; /* burnt orange */
+  margin-bottom: 0;
+}
+
+/* id selector: used on exactly one element */
+#tagline {
+  font-style: italic;
+  color: #555;
+  margin-top: 4px;
+}
+
+/* class selector: used on both sections and list items below */
+.section {
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;          /* box model */
+  margin: 20px 0;         /* box model */
+}
+
+.highlight {
+  color: #bf5700;
+  font-weight: bold;
+}
+
+img {
+  max-width: 100%;
+  border: 3px solid #bf5700;   /* box model */
+  border-radius: 6px;
+}
+
+/* link color changes on hover */
+a {
+  color: #005f86;
+}
+
+a:hover {
+  color: #bf5700;
+}
